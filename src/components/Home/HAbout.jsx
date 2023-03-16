@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import { BiSupport } from "react-icons/bi";
 import { FaProductHunt } from "react-icons/fa";
 import { SiExpensify } from "react-icons/si";

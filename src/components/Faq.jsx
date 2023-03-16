@@ -16,14 +16,14 @@ const Faq = () => {
             }
     })
        }}>
-       <div className={`faq1 ${shopara.id==1?'active':''}`}>
+       <div className={`faq1 ${shopara.id===1?'active':''}`}>
         <h4>How can we contact you</h4>
         {
             shopara.id===1?<BiChevronDown className='faq_icon'/>: <BiChevronRight className='faq_icon'/>
         }
         </div>
        {
-        shopara.id==1 &&
+        shopara.id===1 &&
         <p>What is a Front-End Developer? A Front-End Developer is someone who creates websites and web applications. The difference between Front-End and Back-End is that Front-End refers to how a web page looks, while back-end refers to how it works. You can think of Front-End as client-side and Back-End as server-side.</p>
        }
        </div>
@@ -34,14 +34,14 @@ const Faq = () => {
             }
     })
        }}>
-       <div className={`faq1 ${shopara.id==2?'active':''}`}>
+       <div className={`faq1 ${shopara.id===2?'active':''}`}>
         <h4>How we can contact you ?</h4>
         {
             shopara.id===2?<BiChevronDown className='faq_icon'/>: <BiChevronRight className='faq_icon'/>
         }
         </div>
         {
-            shopara.id==2 &&
+            shopara.id===2 &&
             <p>What is a Front-End Developer? A Front-End Developer is someone who creates websites and web applications. The difference between Front-End and Back-End is that Front-End refers to how a web page looks, while back-end refers to how it works. You can think of Front-End as client-side and Back-End as server-side.</p>
         }
        </div>
@@ -52,14 +52,14 @@ const Faq = () => {
             }
     })
        }}>
-       <div className={`faq1 ${shopara.id==3?'active':''}`}>
+       <div className={`faq1 ${shopara.id===3?'active':''}`}>
         <h4>How we can contact you ?</h4>
         {
             shopara.id===3?<BiChevronDown className='faq_icon'/>: <BiChevronRight className='faq_icon'/>
         }
         </div>
         {
-            shopara.id==3 &&
+            shopara.id===3 &&
             <p>What is a Front-End Developer? A Front-End Developer is someone who creates websites and web applications. The difference between Front-End and Back-End is that Front-End refers to how a web page looks, while back-end refers to how it works. You can think of Front-End as client-side and Back-End as server-side.</p>
         }
        </div>
@@ -70,14 +70,14 @@ const Faq = () => {
             }
     })
        }}>
-       <div className={`faq1 ${shopara.id==4?'active':''}`}>
+       <div className={`faq1 ${shopara.id===4?'active':''}`}>
         <h4>How we can contact you ?</h4>
         {
             shopara.id===4?<BiChevronDown className='faq_icon'/>: <BiChevronRight className='faq_icon'/>
         }
         </div>
         {
-            shopara.id==4 &&
+            shopara.id===4 &&
             <p>What is a Front-End Developer? A Front-End Developer is someone who creates websites and web applications. The difference between Front-End and Back-End is that Front-End refers to how a web page looks, while back-end refers to how it works. You can think of Front-End as client-side and Back-End as server-side.</p>
         }
        </div>
@@ -88,14 +88,14 @@ const Faq = () => {
             }
     })
        }}>
-       <div className={`faq1 ${shopara.id==5?'active':''}`}>
+       <div className={`faq1 ${shopara.id===5?'active':''}`}>
         <h4>How we can contact you ?</h4>
         {
             shopara.id===5?<BiChevronDown className='faq_icon'/>: <BiChevronRight className='faq_icon'/>
         }
         </div>
         {
-            shopara.id==5 &&
+            shopara.id===5 &&
             <p>What is a Front-End Developer? A Front-End Developer is someone who creates websites and web applications. The difference between Front-End and Back-End is that Front-End refers to how a web page looks, while back-end refers to how it works. You can think of Front-End as client-side and Back-End as server-side.</p>
         }
        </div>
